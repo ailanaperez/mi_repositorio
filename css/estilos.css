@@ -7,15 +7,11 @@
   box-sizing: border-box;
 }
 
-.header {
-  height: 100vh;
-  background-color: rgb(190, 144, 144);
-}
-.header .navbar-light .navbar-nav .linkBlanco {
-  color: rgb(255, 255, 255);
+.container .navbar-light .navbar-nav .linkBlanco {
+  color: white;
 }
 
-.tamanioLogo {
+.container .tamanioLogo {
   width: 100px;
 }
 
@@ -24,16 +20,18 @@
   font-weight: 400;
   background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 }
+
 .body .textoh1, .body .card-title {
   font-family: "Beth Ellen", cursive;
   text-align: center;
 }
+
 .body p {
   margin-top: 10px;
 }
 
 p {
-  color: rgb(36, 7, 36);
+  color: #240724;
 }
 
 .card {
@@ -41,5 +39,6 @@ p {
 }
 
 .text-center {
-  color: rgb(99, 13, 76);
-}/*# sourceMappingURL=estilos.css.map */
+  color: #630d4c;
+}
+/*# sourceMappingURL=estilos.css.map */
