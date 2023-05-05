@@ -1,0 +1,13 @@
+
+
+
+.card {
+
+
+ 
+    @include card (#ee57c3);
+  }
+
+  .text-center {
+    color: map-get($estilos, color);
+  }

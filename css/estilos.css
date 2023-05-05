@@ -1,124 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap");
+/*maps*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background-color: rgb(190, 144, 144);
-    
-       
+.header {
+  height: 100vh;
+  background-color: rgb(190, 144, 144);
+}
+.header .navbar-light .navbar-nav .linkBlanco {
+  color: rgb(255, 255, 255);
 }
 
-.header{
-    height: 100vh;
-    background-color: rgb(190, 144, 144);
+.tamanioLogo {
+  width: 100px;
 }
 
-.tamanioLogo{
-   width: 100px;
+.body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.body .textoh1, .body .card-title {
+  font-family: "Beth Ellen", cursive;
+  text-align: center;
+}
+.body p {
+  margin-top: 10px;
 }
 
-.textoh1{
-    font-family: 'Beth Ellen', cursive;
-    text-align: center;
- }
-
-
-
-
-.navbar-light .navbar-nav .linkVerde{
-    color: rgb(6, 135,38);
+p {
+  color: rgb(36, 7, 36);
 }
 
-
-.contenedorConferencia{
-    background:url("../assets/img/imagenfondo1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 88%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-.hijoConferencia{
-    padding-right: 5rem;
-   
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction:column;
-    justify-content:space-between;
+.card {
+  color: #ee57c3;
 }
 
-.hijoConferencia h1{
-    color:white;
-    text-align: center;
-   
-
-}
-
-p { margin-top: 10px;}
-
-.textoConferencia{
-    font-size:25px;
-    font-size: 2rem; 
-    font-size: 1.5rem;
-    line-height: 1.5;
-    font-weight: 500;
-    color:white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-.oradores{
-    margin-bottom:2rem;
-}
-.card-group{
-   column-gap:10px;
-}
-.card-img-top{
-    width:100%;
-    height: 60%;
-    object-fit: cover;
-}
-
-.izquierda{
-    background-image:url("../assets/img/ser1.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height:50vh;
-}
-.derecha{
-    height:50vh;
-    border: 1px solid gray;
-    background-color: rgb(55, 55, 55);
-    color:white;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/*MIERCOLES 5/4
-FONTAWESOME -ICONOS
-FAVICON
-FUENTE PROPIA DESCARGADA EN LA COMPU
-position:absolute
-position:relative
-
--mediasqueries responsive
--bootstrap
--bem
--animaciones-transiciones- transformaciones
--pseudoclases pseudoelementos :hover 
-
-*/
+.text-center {
+  color: rgb(99, 13, 76);
+}/*# sourceMappingURL=estilos.css.map */

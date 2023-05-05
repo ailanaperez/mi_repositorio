@@ -1,0 +1,31 @@
+.body{
+    font-family: $font-family;
+    font-weight: 400;
+    background-image: $background-image;
+    
+
+
+    .textoh1{
+        font-family: $secondary-font;
+        text-align: $text-align;
+        
+     }
+    
+     
+    
+    .card-title {
+        @extend .textoh1;
+      
+
+        
+        
+       
+     }
+    
+    p { margin-top: $margin;}
+
+    
+  
+}
+
+
